@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body>
+    <div id="backdrop">
+      <div id="add-backdrop" class="add-backdrop">
+        <p>Enter Text</p>
+        <input type="text" name="" id="input">
+        <div class="btns">
+        <button id="cancel">Cancel</button>
+        <button id="add-txt">Add</button>
+        </div>
+      </div>
+    </div>  
+
+    <div class="flex">
+      <div>
+        <h2>Not started</h2>
+        <ul>
+          <div class="box">
+            <li draggable="true" class="item"></li>
+            <li draggable="true" class="item">
+              <p>Task 1</p>
+            </li>
+            <li draggable="true" class="item">
+              <p>Task 1</p>
+            </li>
+          </div>
+          <li class="add">
+            <button  class="add-btn">+Add</button>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2>In Progress</h2>
+        <ul>
+          <div class="box">
+            <li draggable="true" class="item"></li>
+            <li draggable="true" class="item">
+              <p>Task 4</p>              
+            </li draggable="true" class="item">
+        </div>
+          <li class="add">
+            <button  class="add-btn">+Add</button>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2>Completed</h2>
+        <ul>
+          <div class="box">
+            <li draggable="true" class="item"></li>
+            <li draggable="true" class="item">
+              <p>Task 6</p>
+            </li>
+          </div>
+          <li class="add">
+            <button  class="add-btn">+Add</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="project.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
+
+
